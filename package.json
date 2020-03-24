@@ -1,0 +1,30 @@
+{
+  "name": "e-school",
+  "version": "1.0.0",
+  "description": "plateforme de cours en ligne",
+  "main": "route.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "express-mysql": "0.0.1",
+    "express-session": "^1.17.0",
+    "multer": "^1.4.2",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "nodemon route"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/Donutson/e-school"
+  },
+  "keywords": [
+    "plateforme",
+    "cours_en_ligne",
+    "écoles"
+  ],
+  "author": "",
+  "license": "ISC"
+}
